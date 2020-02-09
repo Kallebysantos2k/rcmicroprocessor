@@ -32,7 +32,7 @@
 		to right bottom, 
 		rgba(46, 46, 46, 0.3), 
 		rgba(0, 0, 0, 0.7)),
-		url("../_images/background.jpg");
+		url("background.jpg");
 	background-size: cover;
 	background-position: top;
 
