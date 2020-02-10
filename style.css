@@ -14,7 +14,7 @@
 
 /*----------Estrutura--------------*/
 .interface {
-	font-family: 'Oswald', sans-serif;
+	
 	/*Fatiamento da tela*/
 	display: grid;
 	grid-template-columns: 200px auto; /*Divide em 2 colunas*/
