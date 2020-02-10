@@ -1,5 +1,5 @@
 /*Layout da página*/
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Titillium+Web&display=swap');
 
 
 /*Incializar a página - reset*/
@@ -48,7 +48,7 @@
 
 /*Barra lateral*/
 .sidebar{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	grid-area: sidebar;
 	width: 200px;
 	height: 100%;
@@ -85,7 +85,7 @@
 
 
 .footer{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding: 20px;
 	grid-area: footer;
 	text-align: center;
@@ -124,6 +124,7 @@
 	display: block;
 	font-size: 15px;
 	text-align: center;
+	letter-spacing: 5px;
 
 }
 /*---Fim do Cabeçalho---*/
@@ -253,10 +254,12 @@ input{
 
 	.heading-primary-main{
 		font-size: 35px;
+		letter-spacing: 1px;
 	}
 
 	.heading-primary-sub{
 		font-size: 15px;
+		letter-spacing: 1px;
 	}
 
 	.main{
