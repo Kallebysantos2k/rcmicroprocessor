@@ -52,7 +52,6 @@
 	position: fixed;
 	background-color: #313131;
 	transition: .3s;
-	transform: translateX(0%);
 }
 
 
@@ -205,10 +204,7 @@ input{
 	display: none;
 }
 
-/*Ao apertar no botão irá puxar o menu*/
-input:checked ~ .sidebar{
-		transform: translateX(100%);
-}
+
 /*---Fim do menu responsivo---*/
 
 
@@ -262,6 +258,10 @@ input:checked ~ .sidebar{
 	/*Exibe a barra superior*/
 	.menu-button{
 		display: grid;
+	}
+	/*Ao apertar no botão irá puxar o menu*/
+	input:checked ~ .sidebar{
+		transform: translateX(100%);
 	}
 
 	/*Menu sidebar*/
