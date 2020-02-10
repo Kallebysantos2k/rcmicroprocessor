@@ -188,7 +188,7 @@
 
 /*---Menu - Modo Responsivo---*/
 /*Barra com botão*/
-.menu-button{
+.menu-bar{
 	top: 0px;
 	width: 100%;
 	height: 50px;
@@ -200,7 +200,9 @@
 
 	position: fixed;
 	background-color: #313131;
+}
 
+.menu-button{
 	/*Mantem o botão por cima dos outros elementos*/
 	z-index: 1;
 }
@@ -267,7 +269,7 @@ input{
 	}
 
 	/*Exibe a barra superior*/
-	.menu-button{
+	.menu-bar{
 		display: grid;
 	}
 	/*Ao apertar no botão irá puxar o menu*/
