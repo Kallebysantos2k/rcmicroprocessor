@@ -200,9 +200,7 @@
 
 	position: fixed;
 	background-color: #313131;
-}
-
-.menu-button{
+	
 	/*Mantem o botão por cima dos outros elementos*/
 	z-index: 1;
 }
