@@ -52,6 +52,7 @@
 	position: fixed;
 	background-color: #313131;
 	transition: .3s;
+	transform: translateX(0%);
 }
 
 
