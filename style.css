@@ -1,5 +1,5 @@
 /*Layout da página*/
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Titillium+Web&display=swap');
 
 
 /*Incializar a página - reset*/
@@ -14,6 +14,7 @@
 
 /*----------Estrutura--------------*/
 .interface {
+	font-family: 'Oswald', sans-serif;
 	/*Fatiamento da tela*/
 	display: grid;
 	grid-template-columns: 200px auto; /*Divide em 2 colunas*/
