@@ -55,7 +55,6 @@
 
 	position: fixed;
 	background-color: #313131;
-	transition: .3s;
 }
 
 
@@ -170,7 +169,7 @@
 	color: #E0E0E0;
 	
 	padding: 20px;
-	transition: .2s;
+
 
 	text-decoration: none;
 }
@@ -209,8 +208,14 @@
 	width: 50px;
 }
 
-input{
+input#menu-check{
 	display: none;
+}
+
+
+
+.comentario textarea#comment{
+	resize: none;
 }
 
 
@@ -286,7 +291,7 @@ input{
 
 		position: fixed;
 		background-color: rgba(16, 16, 16, .9);
-		transition: .3s;
+		transition: .3s; /*Efeito de slide*/
 		
 	}
 
