@@ -38,6 +38,7 @@
 		url("background.jpg");
 	background-size: cover;
 	background-position: top;
+	background-repeat: no-repeat;
 
 
 
@@ -72,6 +73,7 @@
 
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 500px);
+
 
 
 	grid-gap: 30px;
