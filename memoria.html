@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Memória</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class = "interface">
+
+	<!--Cabeçalho da página-->
+	<header class="header">
+		<div class="text-box">
+			<h1 class="heading-primary">
+			<span class="heading-primary-main">Microprocessadores</span>
+			<span class="heading-primary-sub">Arquitetura de computadores M4</span></h1>			
+		</div>
+
+	</header>
+	<!--Fim do cabeçalho da página-->
+
+
+
+	<!--Menu de navegação-->
+	<input type="checkbox" id="menu-check">
+	<div class="menu-bar">
+		<div class="menu-button">
+			<label for="menu-check">
+				<img src="menu.png">
+			</label>		
+		</div>		
+	</div>
+
+	<nav class="sidebar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="evolucao.html">Evolução</a></li>
+			<li><a href="memoria.html">Memória</a></li>
+			<li><a href="processamento.html">Processamento</a></li>
+			<li><a href="comentarios.html">Comentarios</a></li>
+		</ul>			
+	</nav>
+	<!--Fim do menu de navegação-->
+
+
+
+
+
+	<div class="main">
+		<div class="main-center">
+
+			<h2 align="center">Execução de um programa residente em memória</h2>
+
+			<div id="text">
+				<p>Na arquitetura de von Neumann, de forma a minimizar os recusros envolvidos, as instruções e dados partilhavam a mesma memóra e canais de comunicação(barramentos). Para que o CPUO indentificasse quais as posições da memória que continham instruões ou dados, era necessário que estas estivessem distribuidas de forma concecutiva
+				</p>
+
+				<p>Assim, o CPU sabe que a primeira leitura que fará da memória irá conter o código da instrução(exemplo: somar dois valores) e que a posição seguinte irá conter os operandos que foram indicados na instrução.</p>
+
+				<p>Terminada a execução desta instrução sabe automaticamente que na próxima posição de memória encontrar-se-á a proxima instrução a executar.</p>
+				<br>
+
+				<p align="center">
+					<img src="memoria1.jpg" >
+				</p><br>
+
+				<p>Independe das modifcaçõesintroduzidas, a execução de um programa segue um determinado conjunto de etapas.</p><br>
+
+				<ul>
+					<li><p>Busca à unidade de memória da próxima instrução a ser executada.</p></li>
+					<li><p>Descodificação da instrução a executar. Identificação dos operandos e qual o tipo de operação a realizar.</p></li>
+					<li><p>Execução da tarefa.</p></li>
+					<li><p>Armazenamento do resultado em memória ou em registos internos do CPU.</p></li>
+				</ul>
+
+				<p>Todo o processo anterior irá repertir-se para a próxima instrução. Todavia nem todos os programas necessitam de percorrer todos estes passos. Resumindo, existe um ciclo que se denomina por "fecth-decode-execute cycle" e que engloba todas as ações realizadas por um processador.</p><br><br>
+
+				<p align="center">
+					<img src="memoria2.jpg">
+				</p><br>
+					
+			</div>
+
+			
+
+		</div>
+	</div>
+
+
+
+	<div class="footer">
+		<p>Feito por Kalleby Santos</p>
+	</div>
+</div>
+
+
+</body>
+
+</html>

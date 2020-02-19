@@ -84,6 +84,20 @@
 
 }
 
+.main-center{
+	font-family: 'Roboto', sans-serif;
+	grid-area: main;
+
+	/*color: white;*/
+	/*background:  rgba(0, 0, 0, 0.9);*/
+	/*box-shadow: 0px 0px 10px rgba(0,0,0,.5);*/
+
+	text-align: justify;
+	padding: 15px;
+
+	
+
+}
 
 .footer{
 	font-family: 'Roboto', sans-serif;
@@ -143,17 +157,23 @@
 	
 }
 
-.main-right{
+.main-right div#text{
+	margin-top: 5vh; 
+	color: white;
+	background:  rgba(0, 0, 0, 0.9);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 5vh;
+}
+
+.main-center div#text{
+	margin-top: 5vh;
 
 	color: white;
 	background:  rgba(0, 0, 0, 0.9);
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-
-
 	padding: 5vh;
-
-	
 }
+
 
 /*---Fim da Main---*/
 
@@ -224,6 +244,39 @@ input#menu-check{
 /*---Fim do menu responsivo---*/
 
 
+figure{
+	margin: 5px;
+	position: relative;
+}
+
+figure img{
+	width: 100%;
+}
+
+figure figcaption{
+	position: absolute;
+	top: 0px;
+
+
+	opacity: 0;
+	background-color: black;
+
+	width: 100%;
+	height:100%;
+
+	transition: .3s;
+
+	font-size: 15px;
+}
+
+figure figcaption p{
+	margin: 7px;
+}
+
+figure figcaption:hover{
+	opacity: 1;
+
+}
 
 
 
